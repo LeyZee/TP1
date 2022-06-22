@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+      <title>Créateur | Site internet</title>
+      <link rel="icon" href="Médias/MonLogo.png" type="image/icon type">
+      <meta charset="UTF-8" />
+
+      <script src="https://kit.fontawesome.com/f7b2d72cf0.js"></script>
+      <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css2?family=Yellowtail&display=swap' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <div id="home">
+
+      <header id="sidebar">
+          <div class="hamburger" onclick="sidebar()">
+              <div class="top"></div>
+              <div class="mid"></div>
+              <div class="bottom"></div>
+          </div>
+          <div class="profile">
+            <div class="profile-header">
+                <img src="médias/Charles.jpg" alt="Profile Image" class="profile-img">
+            </div>
+            <div class="profile-carte">
+                <p class="name">Altman Charles</p>
+                <a href="#" class="mail">charles.altm@gmail.com</a>
+                <p class="job">Web Developer | Web Designer</p>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/charles.altman2/" class="fa fa-facebook social-icon"></a>
+                <a href="https://www.instagram.com/charles.altm/?hl=fr" class="fa fa-instagram social-icon"></a>
+                <a href="https://twitter.com/Ley7ee" class="fa fa-twitter social-icon"></a>
+                <a href="https://www.linkedin.com/in/charles-altman-7803bb1ab/" class="fa fa-linkedin social-icon"></a>
+            </div>
+          <nav class="navigation">
+            <ul>
+              <li class="active"><a href="#home"><i class="iconify" data-icon="bx:bx-home"></i> Accueil</a></li>
+              <li><a class="btn" href="#about"><i  class="iconify" data-icon="bx:bx-user"></i> A propos</a></li>
+              <li><a class="btn" href="#cv"><i  class="iconify" data-icon="bx:bx-smile"></i> Pourquoi moi ?</a></li>
+              <li><a class="btn" href="#projets"><i  class="iconify" data-icon="bx:bx-box"></i> Mes projets</a></li>
+              <li><a class="btn" href="#avis"><i  class="iconify" data-icon="bx:bx-message-check"></i> Avis</a></li>
+              <li><a class="btn" href="#contact"><i  class="iconify" data-icon="bx:bx-envelope"></i> Contactez-moi</a></li> 
+            </ul>
+          </nav>
+       </header>
+
+     <div class="banner">
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div> 
+      <div> 
+        <img src="Médias/MonLogo.png" alt="">
+      </div>
+        <div class="intro">
+          <h1>Bienvenue sur mon portefolio</h1>
+          <h2>Transmettez votre message<br>avec une identité visuelle significative</h2>
+          <p>Clair. Simple. Efficace.</p>
+          <a href="#about">En apprendre plus sur moi</a>
+       </div>
+     </div>
+
+  <!---------------------------------------------- Section Moi --------------------------------------------------->
+
+          <h2>Pourquoi travailler avec moi ?</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+  <!------------------------------------------------------ Section Moi ---------------------------------------------------------------->
+    
+
+  <!---------------------------------------------- Section Projet --------------------------------------------------->
+
+        <section id="projets">
+          <h2>Mes projets</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div class="container">
+        <div class="bloc">
+          <div>
+            <div>
+              <span class="fa-duotone fa-box-archive"></span>
+            </div>
+            <div>
+              <h3>Projet 1</h3>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+        <div class="bloc">
+          <div>
+            <div>
+              <span classe="fa-duotone fa-box-archive"></span>
+            </div>
+            <div>
+              <h3>Projet 2</h3>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+        <div class="bloc">
+          <div>
+            <div>
+              <span class="fa-duotone fa-box-archive"></span>
+            </div>
+            <div>
+              <h3>Projet 3</h3>
+              <p>Blablabla</p>
+            </div>
+          </div>
+      </section>
+
+    <footer>
+       
+      <h2>Pour travailler ensemble</h2>
+      <h3>dites moi en plus sur votre projet :</h3>
+      <form action="envoi_form_mail.php" class="form" onsubmit="return checkbox()">
+          <div class="input-box">
+              <input type="name" name="name" placeholder="votre nom..." required>
+              <label for="inputname"></label>
+          </div>
+          <div class="input-box">
+            <input type="name" name="name" placeholder="Votre entreprise..." required>
+            <label for="inputname"></label>
+        </div>
+          <div class="input-box">
+              <input type="email" name="email" placeholder="votre Email..." required>
+              <label for="email"></label>
+          </div>
+          <div class="input-box">
+              <textarea rows="4" cols="50" name="message" placeholder="Votre message..." required></textarea>
+              <label for="message"></label>
+          </div>
+          <div class="input-box">
+              <label for="checkhuman">Je ne suis pas un robot : </label>
+              <input type="checkbox" name="checkhuman" id="checkhuman">
+          </div>
+          <input type="submit" value="ENVOYER" />
+          <div id="error"></div>
+      </form>
+
+       <div id="DeuxiemeTrait"></div>
+       <div id="CopyrightEticons2">
+         <div id="Copyright">
+           <span>© 2022 - Altman - Tous droits réservés </span>
+         </div>
+         <div id="icons2">
+          <a href="https://www.facebook.com/charles.altman2/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/charles.altm/?hl=fr"><i class="fa fa-instagram"></i></a>
+          <a href="https://twitter.com/Ley7ee"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/charles-altman-7803bb1ab/"><i class="fa fa-linkedin"></i></a>
+         </div>
+       </div>
+    </footer>
+
+    <button onclick="returnbar()" id="retour" title="Top"><i class="fas fa-angle-up"></i></button>
+
+    <script>
+
+    // Navbar et bouton de retour vers le haut
+
+    function sidebar() {
+      document.getElementById('sidebar').classList.toggle("open-sidebar");
+      }
+      mybutton = document.getElementById("retour");
+      window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none";
+      }
+   } 
+    function returnbar() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+   }
+
+   // Formulaire de contact
+
+   function checkbox() {
+
+  var error;
+  var valid = false;
+
+  if (document.getElementById("checkhuman").checked){
+  valid = true;
+  }
+
+  if (valid){
+    alert('Message envoyé !');
+  }
+
+  else {
+    error = 'Veuillez cocher la case !'
+    document.getElementById('error').innerHTML = error;
+    return false;
+  }
+
+}    
+
+   // Navigation dans le navbar
+
+  var nav_sections = $('section');
+  var main_nav = $('.navigation');
+
+  $(window).on('scroll', function() {
+    var cur_pos = $(this).scrollTop() + 200;
+
+    nav_sections.each(function() {
+      var top = $(this).offset().top,
+        bottom = top + $(this).outerHeight();
+
+      if (cur_pos >= top && cur_pos <= bottom) {
+        if (cur_pos <= bottom) {
+          main_nav.find('li').removeClass('active');
+        }
+        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+      }
+      if (cur_pos < 300) {
+        $(".navigation ul:first li:first").addClass('active');
+      }
+    });
+  });
+
+    </script>
+
+  </body>
+
+<html>
+
+  
